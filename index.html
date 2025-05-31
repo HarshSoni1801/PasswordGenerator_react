@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <style>
+      body{
+        background-image: url("https://media.gettyimages.com/id/1218925113/vector/midnight-blue-coloured-wall-textured-empty-vector-backgrounds.jpg?s=612x612&w=0&k=20&c=dgWeV_fPrHaWlx6KUt1x495s-nl87V-sUMm0lb81ceE=");
+        box-sizing: border-box;
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      #root{
+        background-color: rgb(58, 58, 58);
+        color: white;
+        height: 70%;
+        min-width: 30%;
+        max-width: 80%;
+        padding: 30px;
+        font-size: 2rem;
+        border: 5px solid rgb(2, 0, 142);
+        border-radius: 10%;
+      }
+      .range{
+        margin: 0px;
+        margin-bottom: 60px;
+        display: flex;
+        gap: 40px;
+      }
+      #root>h2{
+        font-family:monospace;
+        font-size: 1.5rem;
+        background-color: rgb(255, 255, 255);
+        height: 30px;
+        max-width: 100%;
+        padding: 10px;
+        color: black;
+        border-radius: 10px;
+        border: 3px solid blue;        
+      }
+      #root>h1{
+        margin: 0;
+      }
+      .checks{
+        margin-top: 20px;
+        font-size: 1.5rem;
+      }
+      .inputSection{
+        display: flex;
+        justify-content: space-around;
+        align-items:center ;
+      }
+      .inputSection>button
+      {
+        height: 80px;
+        background-color: lightblue;
+        width: 100px;
+        border-radius: 50%;
+        font-weight: bold;
+      }
+      button:hover{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>
+
